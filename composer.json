@@ -1,0 +1,22 @@
+{
+    "name": "nu1ww/amazon-payment-services",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "friendsofphp/php-cs-fixer": "^3.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nu1ww\\AmazonPaymentServices\\": "scr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nuwan Wijethilaka",
+            "email": "nuwan.prime@gmail.com"
+        }
+    ]
+}
